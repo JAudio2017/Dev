@@ -1,0 +1,25 @@
+<div>
+  <br>
+  <label for="username">Username:</label>
+  <input type="text" id="username" [(ngModel)]="username"  />
+  <br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" [(ngModel)]="password" />
+  <br><br>
+  <label></label>
+  <button class="btn btn-primary" [disabled]="username=='' || password==''"  (click)="onLogin()" >Login</button>
+
+  <button class="btn btn-primary" [disabled]="username=='' || password==''"
+  (click) = "
+  username = '';
+  password = '';
+  alertshow = false;
+  "
+
+  >Reset</button>
+  <br><br>
+  <app-alert alerttype= "{{alerttype}}"  alertmsg="{{alertmsg}}" [visible]="alertshow" ></app-alert>
+
+  </div>
+
+

@@ -1,0 +1,12 @@
+
+.succeed{
+  padding: 10px;
+  background-color: aquamarine;
+  border: 1px solid green;
+
+}
+.warning {
+  padding: 10px;
+  background-color: pink;
+  border: 1px solid red;
+}
