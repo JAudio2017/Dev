@@ -5,11 +5,12 @@ import {FormsModule} from '@angular/forms';
 import { ServerComponent } from './server/server.component';
 import {LoginComponent} from './pages/login/login.component';
 import { NgModule} from '@angular/core';
+import { LogComponent } from './pages/log/log.component';
 @Component({
 
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, FormsModule, ServerComponent, LoginComponent],
+  imports: [CommonModule, RouterOutlet, FormsModule, ServerComponent, LoginComponent, LogComponent],
   styleUrl: './app.component.css',
   templateUrl: './app.component.html',
 })

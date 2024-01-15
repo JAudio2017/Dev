@@ -1,0 +1,16 @@
+div{
+  /* border: 1px;
+  border-color: black;
+  border-style: solid; */
+  margin: 50px;
+  background-color: antiquewhite;
+  width: 500px;
+
+}
+
+
+input{
+  margin-left: 50px;
+  margin-right: 10px;
+  width: 350px;
+}

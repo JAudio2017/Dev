@@ -1,0 +1,14 @@
+<div>
+  <br>
+
+  <input type="text" id = "log_input" [(ngModel)] = "msg" autofocus= true #loginput  (keyup.Enter) = "onNewMessage()" placeholder="Please enter requisition note here">
+  <button class="btn btn-primary" (click)="log=[]; loginput.focus();"  >Reset</button>
+  <br><br>
+</div>
+<div>
+  <h6 *ngFor="let logItem of log">
+    {{logItem}}<br>
+  </h6>
+</div>
+
+

@@ -18,7 +18,9 @@
 
   >Reset</button>
   <br><br>
-  <app-alert alerttype= "{{alerttype}}"  alertmsg="{{alertmsg}}" [visible]="alertshow" ></app-alert>
+  <!-- <app-alert alerttype= "{{alerttype}}"  alertmsg="{{alertmsg}}" [visible]="alertshow" ></app-alert> -->
+  <app-alert *ngIf = "alertshow" alerttype= "{{alerttype}}"  alertmsg="{{alertmsg}}" [visible]=true></app-alert>
+
 
   </div>
 

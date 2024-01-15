@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import {AlertComponent} from '../../Component/alert/alert.component';
 import {FormsModule} from '@angular/forms';
-
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [AlertComponent, FormsModule],
+  imports: [AlertComponent, FormsModule,CommonModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
