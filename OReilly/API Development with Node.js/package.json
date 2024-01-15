@@ -1,0 +1,20 @@
+{
+  "name": "api-development-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "good": "^8.1.2",
+    "good-console": "^8.0.0",
+    "hapi": "^18.1.0",
+    "knex": "^3.0.1",
+    "mysql": "^2.18.1"
+  }
+}
